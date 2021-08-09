@@ -1,0 +1,47 @@
+通常実装
+python merge_sort.py  132.99s user 0.51s system 99% cpu 2:14.73 total
+python merge_sort.py  58.37s user 0.14s system 99% cpu 58.659 total
+python merge_sort.py  31.39s user 0.13s system 99% cpu 31.655 total
+python merge_sort.py  11.79s user 0.07s system 99% cpu 11.892 total
+python merge_sort.py  7.50s user 0.05s system 99% cpu 7.583 total
+
+
+workers=[1,2,4,16,64]
+divide=1
+python merge_sort.py  133.10s user 0.33s system 99% cpu 2:13.83 total
+python merge_sort.py  131.90s user 0.35s system 99% cpu 2:12.83 total
+python merge_sort.py  132.45s user 0.39s system 99% cpu 2:13.44 total
+python merge_sort.py  131.88s user 0.47s system 99% cpu 2:12.97 total
+python merge_sort.py  131.23s user 0.52s system 99% cpu 2:11.84 total
+
+
+divide=2
+python merge_sort.py  59.70s user 0.29s system 99% cpu 1:00.34 total
+python merge_sort.py  59.17s user 0.25s system 99% cpu 59.641 total
+python merge_sort.py  59.58s user 0.27s system 99% cpu 1:00.11 total
+python merge_sort.py  59.15s user 0.28s system 99% cpu 59.624 total
+python merge_sort.py  59.13s user 0.44s system 99% cpu 59.632 total
+
+
+divide=4
+python merge_sort.py  31.53s user 0.19s system 99% cpu 31.891 total
+python merge_sort.py  31.39s user 0.17s system 99% cpu 31.698 total
+python merge_sort.py  31.49s user 0.18s system 99% cpu 31.771 total
+python merge_sort.py  31.55s user 0.23s system 99% cpu 31.918 total
+python merge_sort.py  31.47s user 0.38s system 100% cpu 31.733 total
+
+
+divide=16
+python merge_sort.py  12.20s user 0.15s system 98% cpu 12.498 total
+python merge_sort.py  12.19s user 0.14s system 99% cpu 12.366 total
+python merge_sort.py  12.31s user 0.16s system 99% cpu 12.566 total
+python merge_sort.py  12.04s user 0.19s system 100% cpu 12.201 total
+python merge_sort.py  12.22s user 0.37s system 100% cpu 12.475 total
+
+
+divide=64
+python merge_sort.py  7.76s user 0.14s system 99% cpu 7.965 total
+python merge_sort.py  7.74s user 0.13s system 100% cpu 7.867 total
+python merge_sort.py  7.80s user 0.14s system 100% cpu 7.926 total
+python merge_sort.py  7.73s user 0.19s system 101% cpu 7.840 total
+python merge_sort.py  7.88s user 0.40s system 103% cpu 8.022 total
